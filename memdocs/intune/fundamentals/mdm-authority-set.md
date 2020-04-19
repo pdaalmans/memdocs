@@ -44,19 +44,6 @@ Possible configurations are:
 
 - **Office 365 MDM Coexistence** You can activate and use both MDM for Office 365 and Intune concurrently on your tenant and set the management authority to either Intune or MDM for Office 365 for each user to dictate which service will be used to manage their mobile devices. User’s management authority is defined based on the license assigned to the user. For more information, see [Microsoft Intune Co-existence with MDM for Office 365](https://blogs.technet.microsoft.com/configmgrdogs/2016/01/04/microsoft-intune-co-existence-with-mdm-for-office-365)
 
-## Set MDM authority to Intune
-
-If you haven't yet set the MDM authority, follow the steps below.
-
-1. In the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select the orange banner to open the **Mobile Device Management Authority** setting. The orange banner is only displayed if you haven't yet set the MDM authority.
-2. Under **Mobile Device Management Authority**, choose your MDM authority from the following options:
-   - **Intune MDM Authority**
-   - **None**
-
-   ![Screenshot of Intune set mobile device management authority screen](./media/mdm-authority-set/set-mdm-auth.png)
-
-   A message indicates that you have successfully set your MDM authority to Intune.
-
 ### Workflow of Intune Administration UI
 When Android or Apple device management is enabled, Intune sends device and user information to integrate with these third-party services to manage their respective devices.
 
