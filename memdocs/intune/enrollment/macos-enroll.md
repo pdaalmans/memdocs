@@ -43,7 +43,6 @@ Complete the following prerequisites before setting up macOS device enrollment:
 
 - [Make sure your device is eligible for Apple device enrollment](https://support.apple.com/en-us/HT204142#eligibility).
 - [Configure domains](../fundamentals/custom-domain-name-configure.md)
-- [Set the MDM Authority](../fundamentals/mdm-authority-set.md)
 - [Create groups](../fundamentals/groups-add.md)
 - [Configure the Company Portal](../apps/company-portal-app.md)
 - Assign user licenses in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?LinkId=698854)
